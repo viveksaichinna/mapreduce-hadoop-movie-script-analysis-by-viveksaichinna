@@ -11,6 +11,7 @@ Total dialogue length per character.
 Unique words used by each character.
 
 # Approach and Implementation
+
 Mapper Logic
 Read Input: The Mapper reads each line from the movie script dialogue file.
 Tokenization: The dialogue is split into words after removing special characters and punctuation.
@@ -26,7 +27,7 @@ Dialogue Length Per Character: Aggregates word counts for each character.
 Unique Words Per Character: Uses a set to identify unique words per character.
 Output the Final Results: The results are written to HDFS for further analysis.
 This implementation ensures efficient parallel processing of large movie script datasets using Hadoop MapReduce.
----
+
 
 ## Setup and Execution
 
